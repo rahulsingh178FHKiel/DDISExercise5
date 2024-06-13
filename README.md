@@ -148,6 +148,6 @@ DEBU[0331] Everything has finished, exiting k6 normally!
 - **Median is obtained from med in and Average is in avg in** 
 
 ```
- http\_req\_duration..............: avg=15.57s   min=44.29ms med=7.61
+ http_req_duration..............: avg=15.57s   min=44.29ms med=7.61
 ```
 
