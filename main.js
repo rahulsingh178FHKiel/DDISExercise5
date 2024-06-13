@@ -224,8 +224,8 @@ function offerbyuseridAndDeleteFirstIfExists(uid, headers) {
 
 function callActionsRandomly(selfuid, loginHeaders) {
 	
-		// const allActions = [listOwnSales, listOwnPurchases, createoffer, listOffersAndBuyFirstExistingOffer, offerbyuseridAndDeleteFirstIfExists];
-	const allActions = [listOwnSales, createoffer, listOffersAndBuyFirstExistingOffer, offerbyuseridAndDeleteFirstIfExists];
+		const allActions = [listOwnSales, listOwnPurchases, createoffer, listOffersAndBuyFirstExistingOffer, offerbyuseridAndDeleteFirstIfExists];
+	
 		const selectedActions = [];
 
 		while (selectedActions.length < 3) {
